@@ -1,0 +1,13 @@
+{
+  "name": "Harvest integration example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.py",
+  "author": "yutashi",
+  "language":"python3",
+  "license": "MIT",
+  "scripts": {
+     "start": "python3 -u app.py"
+    }
+}
+
