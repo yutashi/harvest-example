@@ -3,6 +3,7 @@ import requests
 import random
 import time
 import sys
+import json
 
 
 def get_temp():
@@ -10,5 +11,5 @@ def get_temp():
 
 
 if __name__ == '__main__':
-        print('{"humidity": {}}'.format(get_temp()))
+        print(json.dumps({'humidity': get_temp()}))
         time.sleep(30)
