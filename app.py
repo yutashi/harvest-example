@@ -11,7 +11,7 @@ def get_temp():
     return random.randint(0, 50)
 
 
-print(os.environ['SOME_API'])
+# print(os.environ['SOME_API'])
 if __name__ == '__main__':
         print(json.dumps({'humidity': get_temp()}))
         time.sleep(30)
